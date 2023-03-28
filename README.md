@@ -11,6 +11,7 @@ Simple multithreaded mosquitto hash cracker
 ## Build from source
 
 OpenSSL lib and headers location must be specified in the solution.
+\
 The project is currently built with Visual Studio.
 
 ## License
