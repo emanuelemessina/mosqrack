@@ -1,0 +1,4 @@
+The files in this folder are slightly modified versions of some mosquitto source code files : https://github.com/eclipse/mosquitto.
+The modifications are not substantial and are just matter of removing lines or fixing variables values.
+Full copyright and license remains intact and is included in the head of each file, complying with the original epl-2.0 license : https://www.eclipse.org/legal/epl-2.0/faq.php .
+It is not clear to me if this constitutes a derivative work but, to be sure, the entire project will be licensed under the same epl-2.0 license as to maintain license compatibility.
