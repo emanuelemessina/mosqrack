@@ -41,5 +41,8 @@
     <ClInclude Include="external\mosquitto\password_mosq.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

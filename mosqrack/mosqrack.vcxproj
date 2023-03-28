@@ -74,11 +74,15 @@
     <LibraryPath>C:\Program Files\OpenSSL-Win64\lib;$(LibraryPath)</LibraryPath>
     <SourcePath>$(ProjectDir)src;$(SourcePath)</SourcePath>
     <IncludePath>$(IncludePath);$(ProjectDir)src;$(ProjectDir)external;C:\Program Files\OpenSSL-Win64\include</IncludePath>
+    <IntDir>$(Platform)\int.dir\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)out\$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LibraryPath>C:\Program Files\OpenSSL-Win64\lib;$(LibraryPath)</LibraryPath>
     <SourcePath>$(ProjectDir)src;$(SourcePath)</SourcePath>
     <IncludePath>$(IncludePath);$(ProjectDir)src;$(ProjectDir)external;C:\Program Files\OpenSSL-Win64\include</IncludePath>
+    <IntDir>$(Platform)\int.dir\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)out\$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -151,6 +155,7 @@
     <ClInclude Include="external\mosquitto\mosquitto_passwd.h" />
     <ClInclude Include="external\mosquitto\password_mosq.h" />
     <ClInclude Include="src\mosqrack.h" />
+    <ClInclude Include="src\timer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
